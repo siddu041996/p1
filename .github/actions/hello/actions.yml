@@ -1,0 +1,13 @@
+name: hello world
+author: siddu 
+description: some description 
+inputs:
+  who to greet:
+    description: 'who to greet'
+    required: true
+outputs:
+  time:
+    desciption: 'the greeting time'
+runs:
+  using: 'node12'
+  main: "dist/index.js"   
